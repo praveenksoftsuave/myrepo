@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json())
 
 app.get('/', (req, res)=> {
-res.send('My first project deploying in Ec2 instance');
+res.send('This is my updated Nodejs projet');
 });
 
 app.post('/getIndexes', (req, res)=> {
