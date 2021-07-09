@@ -9,7 +9,7 @@ app.use(bodyParser.json())
 app.get('/', (req, res)=> {
 res.send('This is my updated Nodejs projet');
 });
-//fdffsfsfsfdf
+//fdffsfsfsfdf dfdsdsfsdfs
 app.post('/getIndexes', (req, res)=> {
     var indexingQuery = `ALTER TABLE ${req.body.tablename} `;
     const columns  = req.body.columns;
