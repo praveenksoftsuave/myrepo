@@ -1,9 +1,7 @@
 const app = require('express')();
 const bodyParser = require('body-parser');
 //my changes dfdff
-//fdsffdff dfggdgdfgcvbcbbbvcvc bbv
-//vcbvc
-//tertetete
+
 app.use(bodyParser.json())
 
 app.get('/', (req, res)=> {
